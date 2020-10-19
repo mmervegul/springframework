@@ -7,6 +7,5 @@ public class CybertekApp {
         Mentor mentor = new Mentor(fullTime, partTime);
 
         mentor.manageAccount();
-
     }
 }
