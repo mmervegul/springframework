@@ -3,16 +3,18 @@
 ######################
 /build/www/**
 /src/test/javascript/coverage/
-/src/test/javascript/PhantomJS*/######################
+/src/test/javascript/PhantomJS*/
+######################
 # Node
 ######################
 /node/
-node_tmp/
-node_modules/
-npm-debug.log.*######################
+node_tmp/ node_modules/
+npm-debug.log.*
+######################
 # SASS
 ######################
-.sass-cache/######################
+.sass-cache/
+######################
 # Eclipse
 ######################
 *.pydevproject
@@ -29,11 +31,16 @@ local.properties
 .settings/
 .loadpath
 .factorypath
-/src/main/resources/rebel.xml# External tool builders
-.externalToolBuilders/**# Locally stored “Eclipse launch configurations”
-*.launch# CDT-specific
-.cproject# PDT-specific
-.buildpath######################
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/**
+􏰋 Locall􏰈y st􏰅􏰁or􏰄ed 􏰌"Eclips􏰃􏰅e lau􏰉nch configurations"􏰉􏰄􏰅􏰍
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+######################
 # Intellij
 ######################
 .idea/
@@ -41,55 +48,82 @@ local.properties
 *.iws
 *.ipr
 *.ids
-*.orig######################
+*.orig
+######################
 # Visual Studio Code
 ######################
-.vscode/######################
+.vscode/
+######################
 # Maven
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/mvnw
+/mvnw.bat
+mvnw.cmd
+/log/
+*.log*
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
 ######################
 /log/
-/target/######################
+/target/
+######################
 # Gradle
 ######################
 .gradle/
-/build/######################
+/build/
+######################
 # Package Files
 ######################
 *.jar
 *.war
 *.ear
-*.db######################
+*.db
+######################
 # Windows
 ######################
 # Windows image file caches
-Thumbs.db# Folder config file
-Desktop.ini######################
+Thumbs.db
+# Folder config file
+Desktop.ini
+######################
 # Mac OSX
 ######################
 .DS_Store
-.svn# Thumbnails
-._*# Files that might appear on external disk
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
 .Spotlight-V100
-.Trashes######################
+.Trashes
+######################
 # Directories
 ######################
 /bin/
-/deploy/######################
+/deploy/
+######################
 # Logs
 ######################
-*.log######################
+*.log
+######################
 # Others
 ######################
 *.class
 *.*~
 *~
-.merge_file*######################
+.merge_file*
+######################
 # Gradle Wrapper
 ######################
-!gradle/wrapper/gradle-wrapper.jar######################
+/gradle/wrapper/gradle-wrapper.jar
+######################
 # Maven Wrapper
 ######################
-!.mvn/wrapper/maven-wrapper.jar######################
+!.mvn/wrapper/maven-wrapper.jar
+######################
 # ESLint
 ######################
 .eslintcache
@@ -104,7 +138,8 @@ Pricing
 API
 Training
 Blog
-About© 2020 GitHub, Inc.
+About
+© 2020 GitHub, Inc.
 Terms
 Privacy
 Security
@@ -115,7 +150,8 @@ Pricing
 API
 Training
 Blog
-About© 2020 GitHub, Inc.
+About
+© 2020 GitHub, Inc.
 Terms
 Privacy
 Security
