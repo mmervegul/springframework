@@ -9,7 +9,8 @@ public class Java implements Course {
 
     private OfficeHours officeHours;
 
-    //@Autowired
+    //Constructor Injection
+    @Autowired
     public Java(OfficeHours officeHours) {
         this.officeHours = officeHours;
     }
