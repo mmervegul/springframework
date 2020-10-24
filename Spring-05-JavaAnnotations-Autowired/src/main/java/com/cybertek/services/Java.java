@@ -7,13 +7,30 @@ import org.springframework.stereotype.Component;
 @Component
 public class Java implements Course {
 
+    //Field Injection
+    @Autowired
     private OfficeHours officeHours;
 
+    /*
     //Constructor Injection
     @Autowired
     public Java(OfficeHours officeHours) {
         this.officeHours = officeHours;
     }
+
+*/
+
+    public Java(OfficeHours officeHours) {
+        this.officeHours = officeHours;
+    }
+
+    /*
+    //Setter Injection
+    @Autowired
+    public void setOfficeHours(OfficeHours officeHours) {
+        this.officeHours = officeHours;
+    }
+     */
 
     @Override
     public void getTeachingHours() {
